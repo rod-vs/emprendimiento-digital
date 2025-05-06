@@ -4,22 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Estilos generales del sitio */
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #f0f2f5;
-    color: #333
+    background-color: #121212; /* negro profundo */
+    color: #f0f0f0; /* texto claro */
 }
-/* Definir el estilo del encabezado */
+
+/* Estilo del encabezado */
 header{
-    background-color: #3079BF;
+    background-color: #b71c1c; /* rojo oscuro elegante */
     padding: 20px;
     text-align: center;
 }
+
 /* Estilos del logo */
 .logo{
-   width: 100px; 
+    width: 100px;
 }
+
 /* Estilos del navegador */
 nav ul{
     list-style: none;
@@ -27,82 +31,104 @@ nav ul{
     justify-content: center;
     margin-top: 10px;
 }
-/* Estilos de los ítems de la lista */
+
 nav ul li{
     margin: 0 15px;
 }
-/* Estilos a los enlaces del navegador */
+
+/* Enlaces del navegador */
 nav ul li a{
-    color:white;
+    color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
 }
-/* Estilos a los enlaces cuando se pasa el mouse */
+
+/* Hover para los enlaces */
 nav ul li a:hover{
+    color: #ff5252; /* rojo más brillante al pasar el mouse */
     text-decoration: underline;
 }
-/* Estilo al area principal */
+
+/* Área principal */
 main {
     padding: 30px;
     text-align: center;
 }
-/* Estilos a la sección */
+
+/* Secciones */
 section{
     margin-bottom: 40px;
     padding: 20px;
-    background: white;
+    background: #1e1e1e; /* gris oscuro para destacar */
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,1);
+    box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.5); /* sombra roja sutil */
 }
-/* Pie de pagina */
+
+/* Pie de página */
 footer{
-    background-color: #333;
+    background-color: #000;
     color: #eee;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
 }
-/* Estilo de imagenes */
+
+/* Imágenes */
 img{
     width: 100%;
     height: auto;
     margin-top: 15px;
     border-radius: 8px;
 }
-/* Estilos de las tarjetas de servicios */
+
+/* Estilo específico para el logo de consultoría */
+.logo-consultoria {
+    width: 100%; /* Hace que ocupe todo el ancho disponible */
+    max-width: 600px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Tarjetas de servicios */
 .tarjetas{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 20px;
 }
-/* Estilos a cada tarjeta */
+
+/* Cada tarjeta */
 .tarjeta{
-    background-color: #e0f7fa;
+    background-color: #2b2b2b; /* gris muy oscuro */
     padding: 20px;
-    border: 2px solid #4caf50;
+    border: 2px solid #ff5252; /* borde rojo brillante */
     border-radius: 10px;
     width: 30%;
     margin: 10px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+    box-shadow: 0px 2px 6px rgba(255, 0, 0, 0.5);
+    color: #fff;
 }
+
 /* Diseño responsivo */
 @media (max-width: 768px){
-    /* Cambiar la orientacion a columnas del menu*/
     nav ul{
         flex-direction: column;
     }
-    /* Ajustar los márgenes superiores entre cada menú */
+
     nav ul li{
         margin: 10px 0;
     }
-    /* Colocando las tarjetas una debajo de otra */
+
     .tarjetas{
         flex-direction: column;
         align-items: center;
     }
-    /* Cada tarjeta ocupa el 80% del espacio disponible */
+
     .tarjeta{
         width: 80%;
     }
 }
+
