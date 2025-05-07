@@ -131,4 +131,92 @@ img{
         width: 80%;
     }
 }
+/* Estilos para el botón "Más Información" */
+button {
+    display: inline-block;
+    background-color: #ff5252; /* Rojo brillante */
+    color: white;
+    padding: 12px 30px;
+    border-radius: 12px; /* Bordes redondeados */
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    border: none; /* Eliminar borde predeterminado */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 20px; /* Agregar espacio arriba del botón */
+}
 
+/* Hover del botón "Más Información" */
+button:hover {
+    background-color: #d32f2f; /* Rojo más oscuro */
+    transform: scale(1.1); /* Aumento de tamaño */
+    box-shadow: 0 4px 10px rgba(255, 82, 82, 0.6); /* Sombra */
+}
+
+/* Si el botón tiene un borde específico */
+button.boton-info-borde {
+    background-color: transparent;
+    color: #ff5252; /* Rojo brillante para el texto */
+    border: 2px solid #ff5252; /* Borde rojo brillante */
+    padding: 12px 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    margin-top: 20px; /* También agregar margen aquí */
+}
+
+/* Hover del botón con borde */
+button.boton-info-borde:hover {
+    background-color: #ff5252; /* Rojo brillante de fondo */
+    color: white; /* El texto se vuelve blanco */
+    transform: scale(1.1); /* Efecto de aumento */
+    box-shadow: 0 4px 10px rgba(255, 82, 82, 0.6); /* Sombra */
+}
+/* Estilos para la página Plan Básico */
+.plan-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.plan-container h1 {
+    color: #ff5252; /* Rojo brillante para el título */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la imagen en la página de Plan Básico */
+.plan-container img {
+    max-width: 70%; /* Ajusta el tamaño de la imagen (70% para más pequeña) */
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+}
+
+/* Estilo de los párrafos en la página de Plan Básico */
+.plan-container p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ccc; /* Texto gris claro */
+}
+
+/* Estilo del botón "Volver a Servicios" */
+.boton-info {
+    display: inline-block;
+    background-color: #ff5252; /* Rojo brillante */
+    color: white;
+    padding: 12px 30px;
+    border-radius: 12px; /* Bordes redondeados */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover del botón "Volver a Servicios" */
+.boton-info:hover {
+    background-color: #d32f2f; /* Rojo más oscuro */
+    transform: scale(1.1); /* Aumento de tamaño */
+    box-shadow: 0 4px 10px rgba(255, 82, 82, 0.6); /* Sombra */
+}

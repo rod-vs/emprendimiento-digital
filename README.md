@@ -1,70 +1,108 @@
-# Emprendimiento Digital
+# 💼 Emprendimiento Digital
 
-Este es un proyecto para un sitio web de emprendimiento digital que ofrece servicios de consultoría digital, con opciones de planes y precios. El objetivo de este proyecto es crear una presencia en línea para ayudar a los negocios a transformarse digitalmente.
+Este es un proyecto de sitio web diseñado para un **emprendimiento digital** que ofrece servicios de consultoría y transformación digital. El objetivo es proporcionar una presencia profesional en línea que muestre los planes, servicios y equipo de trabajo, facilitando el acceso a información para negocios que buscan crecer digitalmente.
 
-## Comenzando 🚀
+## 🌐 Descripción del Sitio Web
 
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+El sitio incluye las siguientes secciones principales:
 
-Mira **Deployment** para conocer cómo desplegar el proyecto.
+- Página principal con navegación clara y moderna.
+- Página de servicios con distintos planes ofrecidos.
+- Páginas individuales para cada plan (básico, estándar y premium).
+- Página "Nosotros" con información del equipo.
+- Estilos CSS personalizados para lograr un diseño atractivo y responsivo.
+- Imágenes descriptivas para mejorar la experiencia del usuario.
+- Botones funcionales con transiciones suaves.
 
-### Pre-requisitos 📋
+## 📁 Estructura del Proyecto
 
-Asegúrate de tener **Git**, **Visual Studio Code** y **Git Bash** instalados en tu máquina.
+emprendimiento-digital/
+│
+├── index.html
+├── servicios.html
+├── nosotros.html
+│
+├── css/
+│ └── estilos.css
+│
+├── img/
+│ ├── logo.png
+│ ├── servicio1.jpg
+│ ├── servicio2.jpg
+│ ├── equipo.jpg
+│ ├── plan_basico.jpg
+│ ├── plan_estandar.jpg
+│ └── plan_premium.jpg
+│
+├── pages/
+│ ├── plan_basico.html
+│ ├── plan_estandar.html
+│ └── plan_premium.html
+│
+└── README.md
 
-1. **Instala Git**: [Git - Descarga e instalación](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-2. **Instala Visual Studio Code**: [Visual Studio Code - Descarga](https://code.visualstudio.com/)
-3. **Instala Git Bash**: Si no tienes Git Bash, puedes descargarlo de [aquí](https://git-scm.com/).
+## ✨ Características Implementadas
 
-### Instalación 🔧
+- Diseño responsivo adaptable a móviles.
+- Botones de "Más información" para cada plan.
+- Imágenes en tarjetas de servicios con `object-fit: cover`.
+- Páginas de planes individuales con contenido estructurado.
+- Estilo visual personalizado: colores, botones, sombras, bordes redondeados.
+- Footer fijado al borde inferior del navegador.
+- Navegación clara entre secciones del sitio.
+- Uso de `box-shadow` y `max-width` para una presentación profesional.
 
-1. Clona el repositorio con el siguiente comando:
+## 🖥️ Tecnologías Utilizadas
+
+- **HTML5** – Estructura del sitio.
+- **CSS3** – Estilos personalizados.
+- **Visual Studio Code** – Editor de código.
+- **Git** – Control de versiones.
+
+## 🛠️ Requisitos Previos
+
+Asegúrate de tener Git, Visual Studio Code y Git Bash instalados en tu máquina:
+
+- [Instala Git](https://git-scm.com/downloads): Git - Descarga e instalación  
+- [Instala Visual Studio Code](https://code.visualstudio.com/): Visual Studio Code - Descarga  
+- [Instala Git Bash](https://gitforwindows.org/): Si no tienes Git Bash, puedes descargarlo desde aquí.
+
+## 🚀 Instrucciones para Clonar y Visualizar el Proyecto
+
+1. Clona el repositorio con:
+
 ```bash
 git clone https://github.com/tu_usuario/emprendimiento-digital.git
+Abre el proyecto con Visual Studio Code.
 
-Una vez clonado, abre el proyecto en Visual Studio Code:
+Abre el archivo index.html con doble clic o con la extensión “Live Server”.
 
-Abre el archivo index.html en tu navegador para ver la página principal del sitio.
+🧩 Capturas de Pantalla (opcional)
+Puedes añadir aquí imágenes del sitio web funcionando, como por ejemplo:
 
-### Ejecutando las pruebas ⚙️
-El proyecto no tiene pruebas automatizadas por el momento, pero puedes ver el funcionamiento del sitio directamente al abrir los archivos HTML en el navegador.
+Página principal
 
-### Despliegue 📦
-Para desplegar el proyecto en un servidor, solo necesitas subir todos los archivos del repositorio a tu servidor web y asegurarte de que los enlaces de los archivos sean correctos. No se requiere configuración adicional.
+Página de servicios
 
-### Construido con 🛠️
-Este proyecto fue creado utilizando las siguientes herramientas:
+Vista móvil
 
-* HTML5 - Lenguaje de marcado utilizado para la estructura del sitio.
-* CSS3 - Para los estilos personalizados del sitio.
-* Visual Studio Code - Editor de código utilizado.
-* Git - Para el control de versiones.
+(Sube las imágenes a una carpeta img/ y enlázalas aquí con ![alt](ruta))
 
-### Contribuyendo 🖇️
-Por favor lee el [CONTRIBUTING.md](https://github.com/tu_usuario/emprendimiento-digital/blob/main/CONTRIBUTING.md) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+👨‍💻 Autores
+Rodnny Moreno – @rod-vs
 
-### Wiki 📖
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu_usuario/emprendimiento-digital/wiki).
+Otro Contribuyente – @otro_contribuyente
 
-### Versionado 📌
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu_usuario/emprendimiento-digital/tags).
+📄 Licencia
+Este proyecto está bajo la Licencia MIT – Ver el archivo LICENSE.md para más detalles.
 
-### Autores ✒️
-* **Rodnny Moreno** - *Trabajo Inicial* - [Tu GitHub](https://github.com/rod-vs)
-* **Otro Contribuyente** - *Documentación* - [Otro GitHub](https://github.com/otro_contribuyente)
+🙌 Expresiones de Gratitud
+Comenta sobre este proyecto a otros. 📢
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/tu_usuario/emprendimiento-digital/contributors) que han participado en este proyecto.
+Invita un café ☕ al desarrollador.
 
-### Licencia 📄
-Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](LICENSE.md) para detalles.
+Da una estrella ⭐ en GitHub.
 
-### Expresiones de Gratitud 🎁
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
+Dona con cripto: 0xf253fc233333078436d111175e5a76a649890000
 
----
-
-⌨️ con ❤️ por **Rodnny Moreno** 😊
+⌨️ con ❤️ por Rodnny Moreno – 2025
